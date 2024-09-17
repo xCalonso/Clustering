@@ -1,0 +1,390 @@
+El caso de estudio tiene 10980 tuplas
+Muertos        0
+Rescatados     0
+Coste          0
+Desplazados    0
+Tiempo         0
+dtype: int64
+
+Muertos         140
+Rescatados       64
+Coste          1986
+Desplazados     776
+Tiempo         2196
+dtype: int64
+
+----- Ejecutando kmeans para comparar en funcion del numero de clusters
+----- Ejecutando kmeans para 2 clusters: 0.02 segundos
+Calinski-Harabaz Index: 2770.079
+Silhouette Coefficient: 0.86732
+Tamaño de cada cluster:
+0:  2150 (97.91%)
+1:    46 ( 2.09%)
+----- Ejecutando kmeans para comparar en funcion del numero de clusters
+----- Ejecutando kmeans para 2 clusters: 0.01 segundos
+Calinski-Harabaz Index: 1697.073
+Silhouette Coefficient: 0.73798
+Tamaño de cada cluster:
+1:  2534 (90.53%)
+0:   265 ( 9.47%)
+----- Ejecutando MeanShift: 0.45 segundos
+Calinski-Harabaz Index: 384.090
+Silhouette Coefficient: 0.33107
+Tamaño de cada cluster:
+0:  1833 (83.47%)
+1:   100 ( 4.55%)
+26:    70 ( 3.19%)
+12:    69 ( 3.14%)
+2:    26 ( 1.18%)
+4:    17 ( 0.77%)
+18:    13 ( 0.59%)
+3:    12 ( 0.55%)
+14:    11 ( 0.50%)
+6:    11 ( 0.50%)
+5:     5 ( 0.23%)
+9:     4 ( 0.18%)
+10:     4 ( 0.18%)
+7:     3 ( 0.14%)
+8:     3 ( 0.14%)
+11:     2 ( 0.09%)
+13:     2 ( 0.09%)
+17:     1 ( 0.05%)
+19:     1 ( 0.05%)
+20:     1 ( 0.05%)
+24:     1 ( 0.05%)
+22:     1 ( 0.05%)
+25:     1 ( 0.05%)
+21:     1 ( 0.05%)
+15:     1 ( 0.05%)
+23:     1 ( 0.05%)
+16:     1 ( 0.05%)
+27:     1 ( 0.05%)
+----- Ejecutando MeanShift: 0.55 segundos
+Calinski-Harabaz Index: 588.104
+Silhouette Coefficient: 0.53373
+Tamaño de cada cluster:
+0:  2444 (87.32%)
+1:   231 ( 8.25%)
+5:    53 ( 1.89%)
+2:    19 ( 0.68%)
+11:     9 ( 0.32%)
+3:     6 ( 0.21%)
+4:     6 ( 0.21%)
+8:     4 ( 0.14%)
+7:     3 ( 0.11%)
+6:     3 ( 0.11%)
+9:     2 ( 0.07%)
+10:     2 ( 0.07%)
+22:     2 ( 0.07%)
+21:     1 ( 0.04%)
+27:     1 ( 0.04%)
+18:     1 ( 0.04%)
+26:     1 ( 0.04%)
+20:     1 ( 0.04%)
+17:     1 ( 0.04%)
+24:     1 ( 0.04%)
+25:     1 ( 0.04%)
+13:     1 ( 0.04%)
+23:     1 ( 0.04%)
+16:     1 ( 0.04%)
+12:     1 ( 0.04%)
+15:     1 ( 0.04%)
+14:     1 ( 0.04%)
+19:     1 ( 0.04%)
+----- Ejecutando dbscan: 0.18 segundos
+Calinski-Harabaz Index: 1570.883
+Silhouette Coefficient: 0.86992
+Epsilon: 0.3
+Número estimado de clusters: 2
+Número estimado de puntos ruidosos: 6
+Tamaño de cada cluster:
+0:  2146 (97.72%)
+1:    44 ( 2.00%)
+-1:     6 ( 0.27%)
+----- Ejecutando dbscan: 0.25 segundos
+Calinski-Harabaz Index: 140.003
+Silhouette Coefficient: 0.87811
+Epsilon: 0.3
+Número estimado de clusters: 1
+Número estimado de puntos ruidosos: 6
+Tamaño de cada cluster:
+0:  2793 (99.79%)
+-1:     6 ( 0.21%)
+----- Ejecutando JerarquicoWard: k:   2,   0.03 segundos
+De los 2 clusters hay 2 con más de 10 elementos. Del total de 1000 elementos, se seleccionan 1000
+
+----- Ejecutando JerarquicoWard: k:   2,   0.02 segundos
+De los 2 clusters hay 2 con más de 10 elementos. Del total de 1000 elementos, se seleccionan 1000
+
+----- Ejecutando birch para 2 clusters: 0.04 segundos, Calinski-Harabaz Index: 2768.048
+Silhouette Coefficient: 0.87002
+Tamaño de cada cluster:
+0:  2152 (98.00%)
+1:    44 ( 2.00%)
+----- Ejecutando birch para 2 clusters: 0.04 segundos, Calinski-Harabaz Index: 660.742
+Silhouette Coefficient: 0.79254
+Tamaño de cada cluster:
+0:  2766 (98.82%)
+1:    33 ( 1.18%)
+El caso de estudio tiene 1735 tuplas
+Muertos        0
+Rescatados     0
+Coste          0
+Desplazados    0
+Tiempo         0
+dtype: int64
+
+Muertos        347
+Rescatados      92
+Coste          336
+Desplazados    212
+Tiempo         347
+dtype: int64
+
+----- Ejecutando kmeans para comparar en funcion del numero de clusters
+----- Ejecutando kmeans para 3 clusters: 0.02 segundos
+Calinski-Harabaz Index: 168.142
+Silhouette Coefficient: 0.39203
+Tamaño de cada cluster:
+0:   206 (59.37%)
+1:   138 (39.77%)
+2:     3 ( 0.86%)
+----- Ejecutando kmeans para comparar en funcion del numero de clusters
+----- Ejecutando kmeans para 3 clusters: 0.05 segundos
+Calinski-Harabaz Index: 16223.030
+Silhouette Coefficient: 0.46710
+Tamaño de cada cluster:
+2:  4006 (61.83%)
+0:  2340 (36.12%)
+1:   133 ( 2.05%)
+----- Ejecutando MeanShift: 0.32 segundos
+Calinski-Harabaz Index: 68.940
+Silhouette Coefficient: 0.25538
+Tamaño de cada cluster:
+0:   221 (63.69%)
+1:    68 (19.60%)
+5:    25 ( 7.20%)
+10:     6 ( 1.73%)
+2:     5 ( 1.44%)
+3:     4 ( 1.15%)
+4:     3 ( 0.86%)
+8:     3 ( 0.86%)
+16:     2 ( 0.58%)
+14:     1 ( 0.29%)
+17:     1 ( 0.29%)
+11:     1 ( 0.29%)
+15:     1 ( 0.29%)
+7:     1 ( 0.29%)
+13:     1 ( 0.29%)
+9:     1 ( 0.29%)
+6:     1 ( 0.29%)
+12:     1 ( 0.29%)
+18:     1 ( 0.29%)
+----- Ejecutando MeanShift: 1.19 segundos
+Calinski-Harabaz Index: 2498.971
+Silhouette Coefficient: 0.39607
+Tamaño de cada cluster:
+0:  5369 (82.87%)
+1:   388 ( 5.99%)
+14:   383 ( 5.91%)
+2:   111 ( 1.71%)
+29:    74 ( 1.14%)
+3:    40 ( 0.62%)
+21:    34 ( 0.52%)
+10:    15 ( 0.23%)
+13:     9 ( 0.14%)
+5:     8 ( 0.12%)
+6:     6 ( 0.09%)
+4:     6 ( 0.09%)
+7:     5 ( 0.08%)
+9:     4 ( 0.06%)
+12:     3 ( 0.05%)
+8:     3 ( 0.05%)
+11:     3 ( 0.05%)
+22:     2 ( 0.03%)
+33:     1 ( 0.02%)
+31:     1 ( 0.02%)
+19:     1 ( 0.02%)
+18:     1 ( 0.02%)
+26:     1 ( 0.02%)
+27:     1 ( 0.02%)
+28:     1 ( 0.02%)
+23:     1 ( 0.02%)
+32:     1 ( 0.02%)
+25:     1 ( 0.02%)
+20:     1 ( 0.02%)
+24:     1 ( 0.02%)
+17:     1 ( 0.02%)
+16:     1 ( 0.02%)
+15:     1 ( 0.02%)
+30:     1 ( 0.02%)
+----- Ejecutando dbscan: 0.01 segundos
+Calinski-Harabaz Index: 91.269
+Silhouette Coefficient: 0.81200
+Epsilon: 0.55
+Número estimado de clusters: 1
+Número estimado de puntos ruidosos: 3
+Tamaño de cada cluster:
+0:   344 (99.14%)
+-1:     3 ( 0.86%)
+----- Ejecutando dbscan: 1.53 segundos
+Calinski-Harabaz Index: 49.553
+Silhouette Coefficient: 0.89852
+Epsilon: 0.55
+Número estimado de clusters: 1
+Número estimado de puntos ruidosos: 2
+Tamaño de cada cluster:
+0:  6477 (99.97%)
+-1:     2 ( 0.03%)
+----- Ejecutando JerarquicoWard: k:   3,   0.00 segundos
+De los 3 clusters hay 3 con más de 10 elementos. Del total de 347 elementos, se seleccionan 347
+
+----- Ejecutando JerarquicoWard: k:   3,   0.02 segundos
+De los 3 clusters hay 3 con más de 10 elementos. Del total de 1000 elementos, se seleccionan 1000
+
+----- Ejecutando birch para 3 clusters: 0.01 segundos, Calinski-Harabaz Index: 59.385
+Silhouette Coefficient: 0.80843
+Tamaño de cada cluster:
+0:   344 (99.14%)
+1:     2 ( 0.58%)
+2:     1 ( 0.29%)
+----- Ejecutando birch para 3 clusters: 0.12 segundos, Calinski-Harabaz Index: 10449.524
+Silhouette Coefficient: 0.91904
+Tamaño de cada cluster:
+1:  6345 (97.93%)
+0:   133 ( 2.05%)
+2:     1 ( 0.02%)
+El caso de estudio tiene 1125 tuplas
+Muertos        0
+Rescatados     0
+Coste          0
+Desplazados    0
+Tiempo         0
+dtype: int64
+
+Muertos         19
+Rescatados       8
+Coste          194
+Desplazados     50
+Tiempo         225
+dtype: int64
+
+----- Ejecutando kmeans para comparar en funcion del numero de clusters
+----- Ejecutando kmeans para 4 clusters: 0.02 segundos
+Calinski-Harabaz Index: 207.868
+Silhouette Coefficient: 0.55193
+Tamaño de cada cluster:
+1:   150 (66.67%)
+3:    56 (24.89%)
+0:    11 ( 4.89%)
+2:     8 ( 3.56%)
+----- Ejecutando kmeans para comparar en funcion del numero de clusters
+----- Ejecutando kmeans para 4 clusters: 0.05 segundos
+Calinski-Harabaz Index: 4272.699
+Silhouette Coefficient: 0.50188
+Tamaño de cada cluster:
+2:  2039 (54.10%)
+0:  1339 (35.53%)
+3:   323 ( 8.57%)
+1:    68 ( 1.80%)
+----- Ejecutando MeanShift: 0.06 segundos
+Calinski-Harabaz Index: 82.316
+Silhouette Coefficient: 0.62545
+Tamaño de cada cluster:
+0:   203 (90.22%)
+1:    10 ( 4.44%)
+2:     7 ( 3.11%)
+4:     1 ( 0.44%)
+7:     1 ( 0.44%)
+6:     1 ( 0.44%)
+3:     1 ( 0.44%)
+5:     1 ( 0.44%)
+----- Ejecutando MeanShift: 0.63 segundos
+Calinski-Harabaz Index: 345.144
+Silhouette Coefficient: 0.40528
+Tamaño de cada cluster:
+0:  3256 (86.39%)
+1:   257 ( 6.82%)
+5:    54 ( 1.43%)
+2:    53 ( 1.41%)
+18:    36 ( 0.96%)
+3:    17 ( 0.45%)
+4:    16 ( 0.42%)
+7:     7 ( 0.19%)
+9:     6 ( 0.16%)
+8:     6 ( 0.16%)
+32:     5 ( 0.13%)
+6:     5 ( 0.13%)
+13:     5 ( 0.13%)
+17:     4 ( 0.11%)
+11:     4 ( 0.11%)
+10:     3 ( 0.08%)
+14:     2 ( 0.05%)
+41:     2 ( 0.05%)
+15:     2 ( 0.05%)
+20:     2 ( 0.05%)
+16:     2 ( 0.05%)
+19:     2 ( 0.05%)
+44:     1 ( 0.03%)
+43:     1 ( 0.03%)
+39:     1 ( 0.03%)
+33:     1 ( 0.03%)
+24:     1 ( 0.03%)
+42:     1 ( 0.03%)
+38:     1 ( 0.03%)
+30:     1 ( 0.03%)
+21:     1 ( 0.03%)
+29:     1 ( 0.03%)
+40:     1 ( 0.03%)
+25:     1 ( 0.03%)
+23:     1 ( 0.03%)
+35:     1 ( 0.03%)
+28:     1 ( 0.03%)
+12:     1 ( 0.03%)
+31:     1 ( 0.03%)
+22:     1 ( 0.03%)
+27:     1 ( 0.03%)
+37:     1 ( 0.03%)
+36:     1 ( 0.03%)
+26:     1 ( 0.03%)
+34:     1 ( 0.03%)
+----- Ejecutando dbscan: 0.00 segundos
+Calinski-Harabaz Index: 104.173
+Silhouette Coefficient: 0.64328
+Epsilon: 0.35
+Número estimado de clusters: 3
+Número estimado de puntos ruidosos: 4
+Tamaño de cada cluster:
+1:   204 (90.67%)
+2:    10 ( 4.44%)
+0:     7 ( 3.11%)
+-1:     4 ( 1.78%)
+----- Ejecutando dbscan: 0.43 segundos
+Calinski-Harabaz Index: 38.222
+Silhouette Coefficient: 0.84234
+Epsilon: 0.35
+Número estimado de clusters: 1
+Número estimado de puntos ruidosos: 2
+Tamaño de cada cluster:
+0:  3767 (99.95%)
+-1:     2 ( 0.05%)
+----- Ejecutando JerarquicoWard: k:   4,   0.00 segundos
+De los 4 clusters hay 4 con más de 10 elementos. Del total de 225 elementos, se seleccionan 225
+
+----- Ejecutando JerarquicoWard: k:   4,   0.02 segundos
+De los 4 clusters hay 4 con más de 10 elementos. Del total de 1000 elementos, se seleccionan 1000
+
+----- Ejecutando birch para 4 clusters: 0.01 segundos, Calinski-Harabaz Index: 97.203
+Silhouette Coefficient: 0.75310
+Tamaño de cada cluster:
+0:   215 (95.56%)
+2:     8 ( 3.56%)
+3:     1 ( 0.44%)
+1:     1 ( 0.44%)
+----- Ejecutando birch para 4 clusters: 0.07 segundos, Calinski-Harabaz Index: 1541.259
+Silhouette Coefficient: 0.82193
+Tamaño de cada cluster:
+0:  3695 (98.04%)
+1:    67 ( 1.78%)
+3:     6 ( 0.16%)
+2:     1 ( 0.03%)
